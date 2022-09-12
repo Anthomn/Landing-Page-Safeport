@@ -161,3 +161,9 @@ header label{
 .home .content .column .image2 img{
     width:35%;
 }
+.home .content .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
