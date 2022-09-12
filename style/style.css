@@ -229,3 +229,15 @@ header label{
 .about .column .content{
     flex:1 1 40rem;
 }
+
+.about .column .content h3{
+    font-size: 3rem;
+    padding: 0px 30px;
+    color:#666;
+}
+
+.about .column .content p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 30px;
+}
