@@ -241,3 +241,22 @@ header label{
     color:#666;
     padding:1rem 30px;
 }
+
+.newsletter{
+    size: 90px;
+    text-align: center;
+    padding:5rem 1rem;
+    /*background-color: #ECF39E;*/
+    background:url(../images/subscribe-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.newsletter .column .image{
+    flex:1 1 40rem;
+}
+.newsletter .column .image2{
+    flex:1 1 40rem;
+}
+.newsletter .column .image img{
+    width:30%;
+}
