@@ -122,3 +122,14 @@ header label{
     visibility: hidden;
     opacity: 0;
 }
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: auto;
+    background: url(../images/home-bg-img.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
