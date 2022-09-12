@@ -133,3 +133,19 @@ header label{
     background-size: cover;
     background-position: center center;
 }
+.home .content h3{
+    font-size: 5.5rem;
+    color:#fff;
+    text-transform:uppercase;
+}
+
+.home .content h3 span{
+    color:var(--pink);
+    text-transform: uppercase;
+}
+
+.home .content p{
+    font-size: 1.7rem;
+    color:#fff;
+    padding:1rem 0;
+}
