@@ -579,3 +579,12 @@ header label{
         margin:2rem 0;
         font-size: 2rem;
     }
+
+    header input:checked ~ .navbar{
+        transform: scaleY(1);
+        opacity: 88%; /*OPACIDAD DE LA SELECCION EN ANDROID*/
+    }
+
+    header input:checked ~ label::before{
+        content:'\f00d';
+    }
