@@ -498,3 +498,12 @@ header label{
     padding:.5rem 0;
     color:#eee;
 }
+
+.footer .box-container .box a:hover{
+    text-decoration: underline;
+}
+
+.footer .box-container .box .info{
+    display: flex;
+    align-items: center;
+}
