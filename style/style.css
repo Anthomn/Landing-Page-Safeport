@@ -469,3 +469,7 @@ header label{
     background-size: cover;
     background-position: center;
 }
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
