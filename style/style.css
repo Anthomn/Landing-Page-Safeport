@@ -559,3 +559,23 @@ header label{
         visibility: visible;
         opacity: 1;
     }
+
+    header .navbar{
+        position: absolute;
+        top:100%; left: 0;
+        width:100%;
+        background:#84b634;
+        padding:1rem 2rem;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity:0;
+        transition: .2s linear;
+    }
+
+    header .navbar a{
+        display: block;
+        margin:2rem 0;
+        font-size: 2rem;
+    }
