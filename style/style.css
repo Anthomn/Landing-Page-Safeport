@@ -604,3 +604,25 @@ header label{
     .home .content p{
         font-size: 1.5rem;
     }
+
+    .about{
+        background-position: right;
+    }
+
+    .newsletter h3{
+        width:auto;
+    }
+
+    .newsletter.image img{
+        width: 40%;
+    }
+    .newsletter.image2 img{
+        width: 35%;
+    }
+    .home .image img{
+        width:100%;
+    }
+    .home .image2 img{
+        width:100%;
+    }
+}
